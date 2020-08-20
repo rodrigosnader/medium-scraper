@@ -29,8 +29,6 @@ import folium
 geolocator = Nominatim()
 
 
-# Scraping Functions
-
  
 def chop(text, split1, split2):
     chopped = text.split(split1)[1].split(split2)[0]
